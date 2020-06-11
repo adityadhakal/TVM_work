@@ -3,7 +3,7 @@ Tuned Model Configuration for Anonymous Submission
 
 Requirements:
 * CUDA-10.0
-* TVM-V0.7
+* TVM-V0.7 (https://github.com/apache/incubator-tvm)
 
 To run any tuned model please start CUDA MPS by running:
 
