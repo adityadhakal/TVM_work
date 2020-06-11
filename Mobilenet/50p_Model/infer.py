@@ -372,7 +372,7 @@ tuning_option = {
     'measure_option': autotvm.measure_option(
         builder=autotvm.LocalBuilder(timeout=10),
         runner=autotvm.RPCRunner(
-            '***REMOVED***',  # change the device key to your key
+            'v100',  # change the device key to your key
             '192.168.0.80', 9190,
             number=20, repeat=3, timeout=500, min_repeat_ms=150),
     ),
