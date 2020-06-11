@@ -115,7 +115,7 @@ def get_network(name, batch_size):
 target = tvm.target.cuda()
 
 #### TUNING OPTION ####
-network = 'VGG-19'
+network = 'vgg-19'
 log_file = "%s.log" % network
 dtype = 'float32'
 
